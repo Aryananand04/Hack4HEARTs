@@ -1,5 +1,31 @@
+.translated-ltr{
+    margin-top: -40px;
+    }
+.translated-ltr{
+    margin-top : -40px;
+}
+.goog-te-banner-frame{
+    display: none;
+    margin-top: -20px;
 
-*{
+}
+.goog-logo-link{
+    display: none !important;
+}
+.goog-te-gadget{
+    color: transparent !important;
+}
+
+
+#google_translate_element {
+    position: absolute;
+    top: 0%;
+    left: calc(50% - 30px);
+    transform: translate(-70%, 80%);
+}
+
+
+  *{
     font-family: 'Poppins', sans-serif;
     margin:0; padding: 0;
     box-sizing: border-box;
@@ -8,6 +34,7 @@
     transition: all .2s ease-out;
     text-decoration: none;
 }
+
 /* Navbar */
 * {
     margin: 0;
@@ -473,14 +500,18 @@ h1{
 }
 
 .doctors .box-container{
-    display: grid;
+    
+    display:grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:2rem;
+    
+    
+    
 }
 
 .doctors .box-container .box{
     text-align: center;
-    background:#fff;
+    background: white;
     border-radius: .5rem;
     border:var(--border);
     box-shadow: var(--box-shadow);
@@ -571,6 +602,79 @@ h1{
 .book .row form .btn{
     padding:1rem 4rem;
 }
+/*book an appointment*/
+
+.appt
+{
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.smally h1
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: black;
+}
+.biggy h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    color:black;
+}
+.biggy h2
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:36px;
+    color: black;
+}
+.container
+{
+    display: inline-flex;
+    column-gap: 20px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.aptbut button
+{
+    border-radius: 50px;
+    border-color:black ;
+    border-width: 4px;
+    padding: 10px;
+    background-color: #A7E6FF;
+    color: black;
+    font-size: 16px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.aptbut button:hover{
+    background-color: black;
+    color: #A7E6FF;
+    border-color:  #A7E6FF;
+   
+}
+.callbut button
+{
+    border-radius: 50px;
+    border-color:black ;
+    border-width: 4px;
+    padding: 10px;
+    background-color: #A7E6FF;
+    color: black;
+    font-size: 16px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.callbut button:hover{
+    background-color: black;
+    color: #A7E6FF;
+    border-color:  #A7E6FF;
+   
+   
+}
+
 
 /* footer section starts */
 
@@ -657,6 +761,5 @@ h1{
 }
 .footer-col .social-links a:hover{
     color: #A7E6FF;
-    background-color: #176b87;
+    background-color: #176b87;
 }
-
