@@ -1,5 +1,31 @@
+.translated-ltr{
+    margin-top: -40px;
+    }
+.translated-ltr{
+    margin-top : -40px;
+}
+.goog-te-banner-frame{
+    display: none;
+    margin-top: -20px;
 
-*{
+}
+.goog-logo-link{
+    display: none !important;
+}
+.goog-te-gadget{
+    color: transparent !important;
+}
+
+
+#google_translate_element {
+    position: absolute;
+    top: 0%;
+    left: calc(50% - 30px);
+    transform: translate(-70%, 80%);
+}
+
+
+  *{
     font-family: 'Poppins', sans-serif;
     margin:0; padding: 0;
     box-sizing: border-box;
@@ -8,6 +34,7 @@
     transition: all .2s ease-out;
     text-decoration: none;
 }
+
 /* Navbar */
 * {
     margin: 0;
