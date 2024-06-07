@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-container, .thank-you-container {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #A7E6FF;
+    border: 1px solid  #003f7f;
+    border-radius: 8px;
+    box-shadow: 5px 5px 8px;
+}
+
+.form-container {
+    display: block;
+}
+
+.thank-you-container {
+    display: none;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 12px;
+    background-color:#A7E6FF;
+    color: black;
+    border-radius: 5px;
+    border-color: #003f7f;
+    border-width: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.form-group button:active {
+    background-color: #003f7f;
+    transform: translateY(0);
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: vertical;
+}
